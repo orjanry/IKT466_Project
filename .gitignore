@@ -218,3 +218,29 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ===== ML project =====
+# Datasets (download via README instructions)
+data/
+datasets/
+
+# Checkpoints: ignore all except the final one used in the report
+checkpoints/*
+!checkpoints/final/
+*.pt
+*.pth
+*.ckpt
+!checkpoints/final/*.pt
+
+# Experiment tracking
+runs/
+wandb/
+lightning_logs/
+mlruns/
+outputs/
+
+# Editors and OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
