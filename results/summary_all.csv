@@ -1,0 +1,31 @@
+model,condition,kind,level,runs,accuracy_mean,accuracy_sd,retained_mean,retained_sd
+Baseline (PCA + LogReg),clean,clean,0,1,0.0935,nan,1.0000,nan
+Baseline (PCA + LogReg),blur_1,blur,1,1,0.0935,nan,1.0000,nan
+Baseline (PCA + LogReg),blur_2,blur,2,1,0.0938,nan,1.0029,nan
+Baseline (PCA + LogReg),blur_3,blur,3,1,0.0946,nan,1.0117,nan
+Baseline (PCA + LogReg),noise_1,noise,1,1,0.0932,nan,0.9971,nan
+Baseline (PCA + LogReg),noise_2,noise,2,1,0.0938,nan,1.0029,nan
+Baseline (PCA + LogReg),noise_3,noise,3,1,0.0948,nan,1.0146,nan
+Baseline (PCA + LogReg),jpeg_1,jpeg,1,1,0.0940,nan,1.0058,nan
+Baseline (PCA + LogReg),jpeg_2,jpeg,2,1,0.0951,nan,1.0175,nan
+Baseline (PCA + LogReg),jpeg_3,jpeg,3,1,0.0970,nan,1.0379,nan
+CNN from scratch,clean,clean,0,3,0.5847,0.0152,1.0000,0.0000
+CNN from scratch,blur_1,blur,1,3,0.3447,0.0155,0.5893,0.0141
+CNN from scratch,blur_2,blur,2,3,0.1518,0.0042,0.2599,0.0138
+CNN from scratch,blur_3,blur,3,3,0.0450,0.0043,0.0769,0.0059
+CNN from scratch,noise_1,noise,1,3,0.4563,0.0059,0.7805,0.0111
+CNN from scratch,noise_2,noise,2,3,0.1470,0.0195,0.2517,0.0368
+CNN from scratch,noise_3,noise,3,3,0.0348,0.0020,0.0596,0.0050
+CNN from scratch,jpeg_1,jpeg,1,3,0.4491,0.0325,0.7678,0.0448
+CNN from scratch,jpeg_2,jpeg,2,3,0.3741,0.0317,0.6393,0.0406
+CNN from scratch,jpeg_3,jpeg,3,3,0.2158,0.0149,0.3687,0.0159
+ResNet-18 + MLP head,clean,clean,0,3,0.8839,0.0043,1.0000,0.0000
+ResNet-18 + MLP head,blur_1,blur,1,3,0.8520,0.0028,0.9639,0.0020
+ResNet-18 + MLP head,blur_2,blur,2,3,0.7405,0.0064,0.8378,0.0091
+ResNet-18 + MLP head,blur_3,blur,3,3,0.3907,0.0182,0.4420,0.0216
+ResNet-18 + MLP head,noise_1,noise,1,3,0.8347,0.0044,0.9443,0.0012
+ResNet-18 + MLP head,noise_2,noise,2,3,0.7215,0.0047,0.8163,0.0059
+ResNet-18 + MLP head,noise_3,noise,3,3,0.3989,0.0011,0.4513,0.0009
+ResNet-18 + MLP head,jpeg_1,jpeg,1,3,0.7951,0.0031,0.8996,0.0075
+ResNet-18 + MLP head,jpeg_2,jpeg,2,3,0.7115,0.0030,0.8049,0.0071
+ResNet-18 + MLP head,jpeg_3,jpeg,3,3,0.3048,0.0079,0.3448,0.0086
