@@ -3,7 +3,8 @@
 Every model loads its images through `load_image()`, so the baseline, the CNN
 and the pretrained model all see exactly the same (corrupted) pixels:
 
-    original image -> resize to 224x224 -> corruption -> (model's own resizing)
+    original image -> resize + centre crop to 224x224 -> corruption
+                   -> (model's own resizing, e.g. 32x32 or 128x128)
 
 Corruptions are applied at 224x224 *before* any model-specific downsizing.
 This matters because shrinking an image (e.g. to 32x32 for the baseline)
@@ -33,6 +34,7 @@ from pathlib import Path
 
 import numpy as np
 from PIL import Image, ImageFilter
+from torchvision.transforms import functional as TF
 
 BASE_SIZE = 224   # every image is resized to this before corruption
 NOISE_SEED = 42   # base seed for the Gaussian noise
@@ -92,15 +94,28 @@ def corrupt(img, kind, level, image_name=""):
     raise ValueError(f"Unknown corruption: {kind}")
 
 
+def resize_and_crop(img, size=BASE_SIZE):
+    """Resize the shorter side to 256 and take the central 224x224 crop.
+
+    This keeps the animal's proportions (no squashing) and is the standard
+    evaluation preprocessing for ImageNet models such as ResNet-18. It uses the
+    same ratio (1.14) as the evaluation transform in train_cnn.py, so the CNN
+    sees images framed the same way as during its validation.
+    """
+    img = TF.resize(img, int(round(size * 256 / 224)),
+                    interpolation=TF.InterpolationMode.BILINEAR)
+    return TF.center_crop(img, size)
+
+
 def load_image(path, kind="clean", level=0):
-    """Load an image, resize to 224x224 and apply a corruption.
+    """Load an image, resize and crop to 224x224, and apply a corruption.
 
     This is the single entry point all models should use, so that clean and
     corrupted images go through exactly the same steps.
     """
     path = Path(path)
     img = Image.open(path).convert("RGB")
-    img = img.resize((BASE_SIZE, BASE_SIZE), Image.BILINEAR)
+    img = resize_and_crop(img)
     return corrupt(img, kind, level, image_name=path.stem)
 
 
