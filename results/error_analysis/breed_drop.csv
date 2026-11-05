@@ -1,0 +1,75 @@
+model,breed,clean_acc,level2_acc,drop
+CNN from scratch,Abyssinian,0.5986,0.3027,0.2959
+CNN from scratch,american_bulldog,0.5333,0.0456,0.4878
+CNN from scratch,american_pit_bull_terrier,0.3267,0.1811,0.1456
+CNN from scratch,basset_hound,0.4700,0.0944,0.3756
+CNN from scratch,beagle,0.6167,0.2744,0.3422
+CNN from scratch,Bengal,0.7233,0.5411,0.1822
+CNN from scratch,Birman,0.7133,0.3722,0.3411
+CNN from scratch,Bombay,0.7386,0.4634,0.2753
+CNN from scratch,boxer,0.5152,0.0752,0.4400
+CNN from scratch,British_Shorthair,0.4633,0.0167,0.4467
+CNN from scratch,chihuahua,0.3167,0.3122,0.0044
+CNN from scratch,Egyptian_Mau,0.8351,0.4502,0.3849
+CNN from scratch,english_cocker_spaniel,0.3867,0.0911,0.2956
+CNN from scratch,english_setter,0.5833,0.1933,0.3900
+CNN from scratch,german_shorthaired,0.5367,0.2267,0.3100
+CNN from scratch,great_pyrenees,0.5467,0.0933,0.4533
+CNN from scratch,havanese,0.6433,0.1789,0.4644
+CNN from scratch,japanese_chin,0.7900,0.2556,0.5344
+CNN from scratch,keeshond,0.6296,0.0797,0.5499
+CNN from scratch,leonberger,0.7933,0.1767,0.6167
+CNN from scratch,Maine_Coon,0.5433,0.1156,0.4278
+CNN from scratch,miniature_pinscher,0.5467,0.3478,0.1989
+CNN from scratch,newfoundland,0.7033,0.2378,0.4656
+CNN from scratch,Persian,0.5600,0.1433,0.4167
+CNN from scratch,pomeranian,0.7033,0.4433,0.2600
+CNN from scratch,pug,0.7167,0.2867,0.4300
+CNN from scratch,Ragdoll,0.5667,0.1967,0.3700
+CNN from scratch,Russian_Blue,0.4767,0.0656,0.4111
+CNN from scratch,saint_bernard,0.7467,0.2200,0.5267
+CNN from scratch,samoyed,0.8833,0.3322,0.5511
+CNN from scratch,scottish_terrier,0.4411,0.1706,0.2705
+CNN from scratch,shiba_inu,0.6733,0.2911,0.3822
+CNN from scratch,Siamese,0.4433,0.2100,0.2333
+CNN from scratch,Sphynx,0.6600,0.2100,0.4500
+CNN from scratch,staffordshire_bull_terrier,0.2060,0.0200,0.1860
+CNN from scratch,wheaten_terrier,0.3300,0.3133,0.0167
+CNN from scratch,yorkshire_terrier,0.6567,0.2822,0.3744
+ResNet-18 + MLP head,Abyssinian,0.8333,0.5476,0.2857
+ResNet-18 + MLP head,american_bulldog,0.8600,0.2878,0.5722
+ResNet-18 + MLP head,american_pit_bull_terrier,0.4867,0.7078,-0.2211
+ResNet-18 + MLP head,basset_hound,0.9100,0.6622,0.2478
+ResNet-18 + MLP head,beagle,0.9267,0.7878,0.1389
+ResNet-18 + MLP head,Bengal,0.7667,0.7944,-0.0278
+ResNet-18 + MLP head,Birman,0.8267,0.6878,0.1389
+ResNet-18 + MLP head,Bombay,0.9129,0.7778,0.1351
+ResNet-18 + MLP head,boxer,0.8653,0.6768,0.1886
+ResNet-18 + MLP head,British_Shorthair,0.7800,0.4856,0.2944
+ResNet-18 + MLP head,chihuahua,0.8933,0.8233,0.0700
+ResNet-18 + MLP head,Egyptian_Mau,0.8832,0.7560,0.1271
+ResNet-18 + MLP head,english_cocker_spaniel,0.9600,0.8900,0.0700
+ResNet-18 + MLP head,english_setter,0.9233,0.6322,0.2911
+ResNet-18 + MLP head,german_shorthaired,0.9800,0.8789,0.1011
+ResNet-18 + MLP head,great_pyrenees,0.9733,0.8389,0.1344
+ResNet-18 + MLP head,havanese,0.9300,0.6778,0.2522
+ResNet-18 + MLP head,japanese_chin,0.9833,0.8656,0.1178
+ResNet-18 + MLP head,keeshond,0.9933,0.8305,0.1627
+ResNet-18 + MLP head,leonberger,1.0000,0.8211,0.1789
+ResNet-18 + MLP head,Maine_Coon,0.7800,0.3533,0.4267
+ResNet-18 + MLP head,miniature_pinscher,0.8500,0.8456,0.0044
+ResNet-18 + MLP head,newfoundland,0.9600,0.8600,0.1000
+ResNet-18 + MLP head,Persian,0.8967,0.7811,0.1156
+ResNet-18 + MLP head,pomeranian,0.9533,0.8867,0.0667
+ResNet-18 + MLP head,pug,0.9700,0.9156,0.0544
+ResNet-18 + MLP head,Ragdoll,0.6567,0.3078,0.3489
+ResNet-18 + MLP head,Russian_Blue,0.7767,0.6611,0.1156
+ResNet-18 + MLP head,saint_bernard,0.9767,0.8456,0.1311
+ResNet-18 + MLP head,samoyed,0.9800,0.9056,0.0744
+ResNet-18 + MLP head,scottish_terrier,0.9798,0.8923,0.0875
+ResNet-18 + MLP head,shiba_inu,0.9900,0.8833,0.1067
+ResNet-18 + MLP head,Siamese,0.8100,0.6911,0.1189
+ResNet-18 + MLP head,Sphynx,0.9233,0.5944,0.3289
+ResNet-18 + MLP head,staffordshire_bull_terrier,0.6292,0.2747,0.3546
+ResNet-18 + MLP head,wheaten_terrier,0.9133,0.7389,0.1744
+ResNet-18 + MLP head,yorkshire_terrier,0.9467,0.8967,0.0500

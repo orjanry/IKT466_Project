@@ -1,0 +1,41 @@
+model,condition,true,predicted,count_per_seed
+CNN from scratch,clean,basset_hound,beagle,25.7
+CNN from scratch,clean,Siamese,Birman,25.0
+CNN from scratch,clean,staffordshire_bull_terrier,american_pit_bull_terrier,24.3
+CNN from scratch,clean,Russian_Blue,British_Shorthair,24.0
+CNN from scratch,clean,wheaten_terrier,havanese,23.7
+CNN from scratch,clean,chihuahua,beagle,19.0
+CNN from scratch,clean,Birman,Ragdoll,18.3
+CNN from scratch,clean,British_Shorthair,Russian_Blue,15.7
+CNN from scratch,clean,Sphynx,chihuahua,15.3
+CNN from scratch,clean,Ragdoll,Birman,15.0
+CNN from scratch,level 2 (all corruptions),great_pyrenees,wheaten_terrier,27.8
+CNN from scratch,level 2 (all corruptions),havanese,wheaten_terrier,25.9
+CNN from scratch,level 2 (all corruptions),samoyed,wheaten_terrier,25.7
+CNN from scratch,level 2 (all corruptions),yorkshire_terrier,wheaten_terrier,24.9
+CNN from scratch,level 2 (all corruptions),basset_hound,beagle,24.2
+CNN from scratch,level 2 (all corruptions),american_bulldog,wheaten_terrier,23.7
+CNN from scratch,level 2 (all corruptions),leonberger,wheaten_terrier,22.3
+CNN from scratch,level 2 (all corruptions),Persian,wheaten_terrier,22.0
+CNN from scratch,level 2 (all corruptions),British_Shorthair,wheaten_terrier,21.7
+CNN from scratch,level 2 (all corruptions),Siamese,Birman,21.4
+ResNet-18 + MLP head,clean,american_pit_bull_terrier,staffordshire_bull_terrier,23.3
+ResNet-18 + MLP head,clean,staffordshire_bull_terrier,american_pit_bull_terrier,17.7
+ResNet-18 + MLP head,clean,Ragdoll,Birman,16.7
+ResNet-18 + MLP head,clean,Bengal,Egyptian_Mau,14.3
+ResNet-18 + MLP head,clean,american_pit_bull_terrier,american_bulldog,13.3
+ResNet-18 + MLP head,clean,Russian_Blue,British_Shorthair,13.3
+ResNet-18 + MLP head,clean,Siamese,Birman,12.0
+ResNet-18 + MLP head,clean,Ragdoll,Persian,11.7
+ResNet-18 + MLP head,clean,staffordshire_bull_terrier,american_bulldog,11.0
+ResNet-18 + MLP head,clean,american_pit_bull_terrier,german_shorthaired,9.7
+ResNet-18 + MLP head,level 2 (all corruptions),staffordshire_bull_terrier,american_pit_bull_terrier,50.7
+ResNet-18 + MLP head,level 2 (all corruptions),american_bulldog,american_pit_bull_terrier,39.4
+ResNet-18 + MLP head,level 2 (all corruptions),Ragdoll,Birman,25.1
+ResNet-18 + MLP head,level 2 (all corruptions),British_Shorthair,Russian_Blue,21.2
+ResNet-18 + MLP head,level 2 (all corruptions),Sphynx,chihuahua,21.2
+ResNet-18 + MLP head,level 2 (all corruptions),Maine_Coon,Bengal,20.4
+ResNet-18 + MLP head,level 2 (all corruptions),basset_hound,beagle,16.3
+ResNet-18 + MLP head,level 2 (all corruptions),Ragdoll,Persian,16.1
+ResNet-18 + MLP head,level 2 (all corruptions),english_setter,english_cocker_spaniel,15.8
+ResNet-18 + MLP head,level 2 (all corruptions),Egyptian_Mau,Bengal,15.0
