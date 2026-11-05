@@ -1,14 +1,14 @@
 model,condition,kind,level,runs,accuracy_mean,accuracy_sd,retained_mean,retained_sd
-Baseline (PCA + LogReg),clean,clean,0,1,0.0935,nan,1.0000,nan
-Baseline (PCA + LogReg),blur_1,blur,1,1,0.0935,nan,1.0000,nan
-Baseline (PCA + LogReg),blur_2,blur,2,1,0.0938,nan,1.0029,nan
-Baseline (PCA + LogReg),blur_3,blur,3,1,0.0946,nan,1.0117,nan
-Baseline (PCA + LogReg),noise_1,noise,1,1,0.0932,nan,0.9971,nan
-Baseline (PCA + LogReg),noise_2,noise,2,1,0.0938,nan,1.0029,nan
-Baseline (PCA + LogReg),noise_3,noise,3,1,0.0948,nan,1.0146,nan
-Baseline (PCA + LogReg),jpeg_1,jpeg,1,1,0.0940,nan,1.0058,nan
-Baseline (PCA + LogReg),jpeg_2,jpeg,2,1,0.0951,nan,1.0175,nan
-Baseline (PCA + LogReg),jpeg_3,jpeg,3,1,0.0970,nan,1.0379,nan
+Baseline (PCA + LogReg),clean,clean,0,1,0.0932,nan,1.0000,nan
+Baseline (PCA + LogReg),blur_1,blur,1,1,0.0938,nan,1.0058,nan
+Baseline (PCA + LogReg),blur_2,blur,2,1,0.0938,nan,1.0058,nan
+Baseline (PCA + LogReg),blur_3,blur,3,1,0.0948,nan,1.0175,nan
+Baseline (PCA + LogReg),noise_1,noise,1,1,0.0929,nan,0.9971,nan
+Baseline (PCA + LogReg),noise_2,noise,2,1,0.0938,nan,1.0058,nan
+Baseline (PCA + LogReg),noise_3,noise,3,1,0.0948,nan,1.0175,nan
+Baseline (PCA + LogReg),jpeg_1,jpeg,1,1,0.0938,nan,1.0058,nan
+Baseline (PCA + LogReg),jpeg_2,jpeg,2,1,0.0951,nan,1.0205,nan
+Baseline (PCA + LogReg),jpeg_3,jpeg,3,1,0.0973,nan,1.0439,nan
 CNN from scratch,clean,clean,0,3,0.5847,0.0152,1.0000,0.0000
 CNN from scratch,blur_1,blur,1,3,0.3447,0.0155,0.5893,0.0141
 CNN from scratch,blur_2,blur,2,3,0.1518,0.0042,0.2599,0.0138

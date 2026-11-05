@@ -213,7 +213,7 @@ clean,american_pit_bull_terrier_201,2,36,False
 clean,american_pit_bull_terrier_202,2,1,False
 clean,american_pit_bull_terrier_203,2,20,False
 clean,american_pit_bull_terrier_204,2,5,False
-clean,american_pit_bull_terrier_20,2,5,False
+clean,american_pit_bull_terrier_20,2,20,False
 clean,american_pit_bull_terrier_21,2,14,False
 clean,american_pit_bull_terrier_22,2,36,False
 clean,american_pit_bull_terrier_23,2,16,False
@@ -647,7 +647,7 @@ clean,Birman_51,6,19,False
 clean,Birman_52,6,7,False
 clean,Birman_53,6,6,True
 clean,Birman_54,6,26,False
-clean,Birman_55,6,32,False
+clean,Birman_55,6,35,False
 clean,Birman_56,6,16,False
 clean,Birman_57,6,17,False
 clean,Birman_58,6,25,False
@@ -1111,7 +1111,7 @@ clean,Egyptian_Mau_23,11,17,False
 clean,Egyptian_Mau_25,11,26,False
 clean,Egyptian_Mau_26,11,15,False
 clean,Egyptian_Mau_27,11,29,False
-clean,Egyptian_Mau_28,11,11,True
+clean,Egyptian_Mau_28,11,4,False
 clean,Egyptian_Mau_29,11,28,False
 clean,Egyptian_Mau_2,11,29,False
 clean,Egyptian_Mau_30,11,34,False
@@ -1814,7 +1814,7 @@ clean,keeshond_36,18,9,False
 clean,keeshond_37,18,34,False
 clean,keeshond_38,18,22,False
 clean,keeshond_39,18,30,False
-clean,keeshond_3,18,22,False
+clean,keeshond_3,18,9,False
 clean,keeshond_40,18,6,False
 clean,keeshond_41,18,34,False
 clean,keeshond_42,18,34,False
@@ -2298,7 +2298,7 @@ clean,Persian_261,23,29,False
 clean,Persian_262,23,26,False
 clean,Persian_263,23,24,False
 clean,Persian_264,23,26,False
-clean,Persian_265,23,5,False
+clean,Persian_265,23,33,False
 clean,Persian_266,23,24,False
 clean,Persian_267,23,36,False
 clean,Persian_268,23,10,False
@@ -2725,7 +2725,7 @@ clean,Russian_Blue_35,27,27,True
 clean,Russian_Blue_36,27,8,False
 clean,Russian_Blue_38,27,17,False
 clean,Russian_Blue_40,27,9,False
-clean,Russian_Blue_41,27,12,False
+clean,Russian_Blue_41,27,21,False
 clean,Russian_Blue_43,27,9,False
 clean,Russian_Blue_44,27,11,False
 clean,Russian_Blue_45,27,13,False
@@ -3661,7 +3661,7 @@ clean,yorkshire_terrier_90,36,8,False
 clean,yorkshire_terrier_91,36,32,False
 clean,yorkshire_terrier_92,36,3,False
 clean,yorkshire_terrier_93,36,28,False
-clean,yorkshire_terrier_94,36,3,False
+clean,yorkshire_terrier_94,36,8,False
 clean,yorkshire_terrier_95,36,23,False
 clean,yorkshire_terrier_96,36,28,False
 clean,yorkshire_terrier_97,36,2,False
@@ -3737,7 +3737,7 @@ blur_1,Abyssinian_6,0,3,False
 blur_1,Abyssinian_70,0,23,False
 blur_1,Abyssinian_71,0,0,True
 blur_1,Abyssinian_72,0,0,True
-blur_1,Abyssinian_73,0,13,False
+blur_1,Abyssinian_73,0,25,False
 blur_1,Abyssinian_74,0,7,False
 blur_1,Abyssinian_75,0,8,False
 blur_1,Abyssinian_76,0,28,False
@@ -3814,7 +3814,7 @@ blur_1,american_bulldog_48,1,9,False
 blur_1,american_bulldog_49,1,27,False
 blur_1,american_bulldog_50,1,0,False
 blur_1,american_bulldog_51,1,3,False
-blur_1,american_bulldog_52,1,23,False
+blur_1,american_bulldog_52,1,11,False
 blur_1,american_bulldog_53,1,17,False
 blur_1,american_bulldog_54,1,14,False
 blur_1,american_bulldog_55,1,4,False
@@ -4151,7 +4151,7 @@ blur_1,beagle_83,4,33,False
 blur_1,beagle_84,4,10,False
 blur_1,beagle_85,4,17,False
 blur_1,beagle_86,4,10,False
-blur_1,beagle_87,4,3,False
+blur_1,beagle_87,4,31,False
 blur_1,beagle_88,4,29,False
 blur_1,beagle_89,4,24,False
 blur_1,beagle_8,4,26,False
@@ -4219,7 +4219,7 @@ blur_1,Bengal_54,5,0,False
 blur_1,Bengal_55,5,36,False
 blur_1,Bengal_56,5,0,False
 blur_1,Bengal_57,5,3,False
-blur_1,Bengal_58,5,10,False
+blur_1,Bengal_58,5,12,False
 blur_1,Bengal_59,5,24,False
 blur_1,Bengal_5,5,30,False
 blur_1,Bengal_60,5,24,False
@@ -5140,7 +5140,7 @@ blur_1,german_shorthaired_88,14,25,False
 blur_1,german_shorthaired_89,14,14,True
 blur_1,german_shorthaired_8,14,3,False
 blur_1,german_shorthaired_90,14,34,False
-blur_1,german_shorthaired_91,14,3,False
+blur_1,german_shorthaired_91,14,1,False
 blur_1,german_shorthaired_92,14,30,False
 blur_1,german_shorthaired_93,14,5,False
 blur_1,german_shorthaired_94,14,19,False
@@ -5395,7 +5395,7 @@ blur_1,japanese_chin_47,17,10,False
 blur_1,japanese_chin_48,17,12,False
 blur_1,japanese_chin_49,17,23,False
 blur_1,japanese_chin_4,17,1,False
-blur_1,japanese_chin_50,17,34,False
+blur_1,japanese_chin_50,17,14,False
 blur_1,japanese_chin_51,17,28,False
 blur_1,japanese_chin_52,17,1,False
 blur_1,japanese_chin_53,17,11,False
@@ -5910,7 +5910,7 @@ blur_1,newfoundland_61,22,14,False
 blur_1,newfoundland_62,22,30,False
 blur_1,newfoundland_63,22,18,False
 blur_1,newfoundland_64,22,7,False
-blur_1,newfoundland_65,22,14,False
+blur_1,newfoundland_65,22,22,True
 blur_1,newfoundland_66,22,7,False
 blur_1,newfoundland_67,22,27,False
 blur_1,newfoundland_68,22,22,True
@@ -6753,7 +6753,7 @@ blur_1,shiba_inu_200,31,1,False
 blur_1,shiba_inu_201,31,0,False
 blur_1,shiba_inu_202,31,0,False
 blur_1,shiba_inu_203,31,31,True
-blur_1,shiba_inu_204,31,22,False
+blur_1,shiba_inu_204,31,21,False
 blur_1,shiba_inu_205,31,15,False
 blur_1,shiba_inu_206,31,9,False
 blur_1,shiba_inu_207,31,13,False
@@ -6761,7 +6761,7 @@ blur_1,shiba_inu_208,31,24,False
 blur_1,shiba_inu_209,31,4,False
 blur_1,shiba_inu_20,31,23,False
 blur_1,shiba_inu_210,31,0,False
-blur_1,shiba_inu_212,31,33,False
+blur_1,shiba_inu_212,31,21,False
 blur_1,shiba_inu_21,31,24,False
 blur_1,shiba_inu_22,31,23,False
 blur_1,shiba_inu_23,31,0,False
@@ -7500,7 +7500,7 @@ blur_2,american_bulldog_64,1,35,False
 blur_2,american_bulldog_65,1,28,False
 blur_2,american_bulldog_66,1,15,False
 blur_2,american_bulldog_67,1,6,False
-blur_2,american_bulldog_68,1,15,False
+blur_2,american_bulldog_68,1,14,False
 blur_2,american_bulldog_69,1,1,True
 blur_2,american_bulldog_6,1,26,False
 blur_2,american_bulldog_70,1,7,False
@@ -7834,7 +7834,7 @@ blur_2,beagle_96,4,9,False
 blur_2,beagle_97,4,24,False
 blur_2,beagle_98,4,14,False
 blur_2,beagle_99,4,14,False
-blur_2,beagle_9,4,31,False
+blur_2,beagle_9,4,4,True
 blur_2,Bengal_192,5,0,False
 blur_2,Bengal_193,5,33,False
 blur_2,Bengal_194,5,17,False
@@ -8218,7 +8218,7 @@ blur_2,boxer_93,8,26,False
 blur_2,boxer_94,8,18,False
 blur_2,boxer_95,8,18,False
 blur_2,boxer_96,8,7,False
-blur_2,boxer_97,8,18,False
+blur_2,boxer_97,8,27,False
 blur_2,boxer_98,8,36,False
 blur_2,boxer_99,8,0,False
 blur_2,boxer_9,8,19,False
@@ -8259,7 +8259,7 @@ blur_2,British_Shorthair_31,9,25,False
 blur_2,British_Shorthair_32,9,9,True
 blur_2,British_Shorthair_33,9,9,True
 blur_2,British_Shorthair_34,9,7,False
-blur_2,British_Shorthair_36,9,25,False
+blur_2,British_Shorthair_36,9,11,False
 blur_2,British_Shorthair_37,9,16,False
 blur_2,British_Shorthair_38,9,27,False
 blur_2,British_Shorthair_39,9,14,False
@@ -8449,7 +8449,7 @@ blur_2,Egyptian_Mau_23,11,17,False
 blur_2,Egyptian_Mau_25,11,26,False
 blur_2,Egyptian_Mau_26,11,15,False
 blur_2,Egyptian_Mau_27,11,29,False
-blur_2,Egyptian_Mau_28,11,11,True
+blur_2,Egyptian_Mau_28,11,4,False
 blur_2,Egyptian_Mau_29,11,28,False
 blur_2,Egyptian_Mau_2,11,29,False
 blur_2,Egyptian_Mau_30,11,34,False
@@ -8538,7 +8538,7 @@ blur_2,english_cocker_spaniel_23,12,14,False
 blur_2,english_cocker_spaniel_24,12,36,False
 blur_2,english_cocker_spaniel_25,12,6,False
 blur_2,english_cocker_spaniel_26,12,0,False
-blur_2,english_cocker_spaniel_27,12,22,False
+blur_2,english_cocker_spaniel_27,12,27,False
 blur_2,english_cocker_spaniel_28,12,4,False
 blur_2,english_cocker_spaniel_29,12,12,True
 blur_2,english_cocker_spaniel_2,12,30,False
@@ -9119,7 +9119,7 @@ blur_2,japanese_chin_97,17,14,False
 blur_2,japanese_chin_98,17,34,False
 blur_2,japanese_chin_99,17,7,False
 blur_2,japanese_chin_9,17,19,False
-blur_2,keeshond_191,18,27,False
+blur_2,keeshond_191,18,35,False
 blur_2,keeshond_192,18,14,False
 blur_2,keeshond_193,18,32,False
 blur_2,keeshond_194,18,3,False
@@ -9348,7 +9348,7 @@ blur_2,Maine_Coon_26,20,23,False
 blur_2,Maine_Coon_270,20,17,False
 blur_2,Maine_Coon_271,20,23,False
 blur_2,Maine_Coon_272,20,27,False
-blur_2,Maine_Coon_27,20,15,False
+blur_2,Maine_Coon_27,20,1,False
 blur_2,Maine_Coon_28,20,22,False
 blur_2,Maine_Coon_29,20,33,False
 blur_2,Maine_Coon_2,20,28,False
@@ -9963,7 +9963,7 @@ blur_2,Ragdoll_40,26,31,False
 blur_2,Ragdoll_41,26,17,False
 blur_2,Ragdoll_42,26,17,False
 blur_2,Ragdoll_43,26,15,False
-blur_2,Ragdoll_44,26,26,True
+blur_2,Ragdoll_44,26,1,False
 blur_2,Ragdoll_45,26,1,False
 blur_2,Ragdoll_47,26,6,False
 blur_2,Ragdoll_48,26,26,True
@@ -10241,7 +10241,7 @@ blur_2,samoyed_27,29,15,False
 blur_2,samoyed_28,29,29,True
 blur_2,samoyed_29,29,29,True
 blur_2,samoyed_2,29,26,False
-blur_2,samoyed_30,29,15,False
+blur_2,samoyed_30,29,29,True
 blur_2,samoyed_31,29,15,False
 blur_2,samoyed_32,29,26,False
 blur_2,samoyed_33,29,29,True
@@ -10422,7 +10422,7 @@ blur_2,shiba_inu_200,31,1,False
 blur_2,shiba_inu_201,31,0,False
 blur_2,shiba_inu_202,31,0,False
 blur_2,shiba_inu_203,31,31,True
-blur_2,shiba_inu_204,31,22,False
+blur_2,shiba_inu_204,31,21,False
 blur_2,shiba_inu_205,31,15,False
 blur_2,shiba_inu_206,31,9,False
 blur_2,shiba_inu_207,31,13,False
@@ -11447,7 +11447,7 @@ blur_3,beagle_45,4,14,False
 blur_3,beagle_46,4,24,False
 blur_3,beagle_47,4,21,False
 blur_3,beagle_48,4,14,False
-blur_3,beagle_49,4,20,False
+blur_3,beagle_49,4,24,False
 blur_3,beagle_4,4,1,False
 blur_3,beagle_50,4,35,False
 blur_3,beagle_51,4,24,False
@@ -12110,7 +12110,7 @@ blur_3,Egyptian_Mau_219,11,24,False
 blur_3,Egyptian_Mau_21,11,25,False
 blur_3,Egyptian_Mau_220,11,12,False
 blur_3,Egyptian_Mau_221,11,30,False
-blur_3,Egyptian_Mau_222,11,10,False
+blur_3,Egyptian_Mau_222,11,11,True
 blur_3,Egyptian_Mau_223,11,1,False
 blur_3,Egyptian_Mau_224,11,14,False
 blur_3,Egyptian_Mau_22,11,6,False
@@ -12510,7 +12510,7 @@ blur_3,great_pyrenees_26,15,15,True
 blur_3,great_pyrenees_27,15,15,True
 blur_3,great_pyrenees_28,15,29,False
 blur_3,great_pyrenees_29,15,23,False
-blur_3,great_pyrenees_2,15,26,False
+blur_3,great_pyrenees_2,15,10,False
 blur_3,great_pyrenees_30,15,1,False
 blur_3,great_pyrenees_31,15,15,True
 blur_3,great_pyrenees_32,15,4,False
@@ -13017,7 +13017,7 @@ blur_3,Maine_Coon_26,20,23,False
 blur_3,Maine_Coon_270,20,17,False
 blur_3,Maine_Coon_271,20,23,False
 blur_3,Maine_Coon_272,20,30,False
-blur_3,Maine_Coon_27,20,15,False
+blur_3,Maine_Coon_27,20,1,False
 blur_3,Maine_Coon_28,20,22,False
 blur_3,Maine_Coon_29,20,33,False
 blur_3,Maine_Coon_2,20,28,False
@@ -13536,7 +13536,7 @@ blur_3,pug_4,25,8,False
 blur_3,pug_50,25,16,False
 blur_3,pug_51,25,33,False
 blur_3,pug_52,25,25,True
-blur_3,pug_53,25,6,False
+blur_3,pug_53,25,33,False
 blur_3,pug_54,25,25,True
 blur_3,pug_55,25,25,True
 blur_3,pug_56,25,16,False
@@ -13581,7 +13581,7 @@ blur_3,pug_91,25,23,False
 blur_3,pug_92,25,31,False
 blur_3,pug_93,25,23,False
 blur_3,pug_94,25,11,False
-blur_3,pug_95,25,34,False
+blur_3,pug_95,25,22,False
 blur_3,pug_96,25,29,False
 blur_3,pug_97,25,7,False
 blur_3,pug_98,25,19,False
@@ -13662,7 +13662,7 @@ blur_3,Ragdoll_74,26,33,False
 blur_3,Ragdoll_75,26,6,False
 blur_3,Ragdoll_76,26,15,False
 blur_3,Ragdoll_77,26,26,True
-blur_3,Ragdoll_78,26,1,False
+blur_3,Ragdoll_78,26,33,False
 blur_3,Ragdoll_79,26,15,False
 blur_3,Ragdoll_7,26,26,True
 blur_3,Ragdoll_80,26,33,False
@@ -13904,7 +13904,7 @@ blur_3,samoyed_21,29,24,False
 blur_3,samoyed_22,29,30,False
 blur_3,samoyed_23,29,2,False
 blur_3,samoyed_24,29,33,False
-blur_3,samoyed_25,29,11,False
+blur_3,samoyed_25,29,1,False
 blur_3,samoyed_26,29,11,False
 blur_3,samoyed_27,29,15,False
 blur_3,samoyed_28,29,29,True
@@ -13943,7 +13943,7 @@ blur_3,samoyed_57,29,26,False
 blur_3,samoyed_58,29,26,False
 blur_3,samoyed_59,29,1,False
 blur_3,samoyed_5,29,4,False
-blur_3,samoyed_60,29,9,False
+blur_3,samoyed_60,29,16,False
 blur_3,samoyed_61,29,29,True
 blur_3,samoyed_62,29,20,False
 blur_3,samoyed_63,29,29,True
@@ -14036,7 +14036,7 @@ blur_3,scottish_terrier_51,30,11,False
 blur_3,scottish_terrier_52,30,27,False
 blur_3,scottish_terrier_53,30,22,False
 blur_3,scottish_terrier_54,30,7,False
-blur_3,scottish_terrier_55,30,14,False
+blur_3,scottish_terrier_55,30,19,False
 blur_3,scottish_terrier_56,30,13,False
 blur_3,scottish_terrier_57,30,34,False
 blur_3,scottish_terrier_58,30,5,False
@@ -14081,7 +14081,7 @@ blur_3,scottish_terrier_92,30,16,False
 blur_3,scottish_terrier_93,30,34,False
 blur_3,scottish_terrier_94,30,30,True
 blur_3,scottish_terrier_95,30,33,False
-blur_3,scottish_terrier_96,30,31,False
+blur_3,scottish_terrier_96,30,5,False
 blur_3,scottish_terrier_97,30,18,False
 blur_3,scottish_terrier_98,30,1,False
 blur_3,scottish_terrier_99,30,5,False
@@ -14129,7 +14129,7 @@ blur_3,shiba_inu_45,31,14,False
 blur_3,shiba_inu_46,31,20,False
 blur_3,shiba_inu_47,31,24,False
 blur_3,shiba_inu_48,31,13,False
-blur_3,shiba_inu_49,31,35,False
+blur_3,shiba_inu_49,31,24,False
 blur_3,shiba_inu_4,31,6,False
 blur_3,shiba_inu_50,31,33,False
 blur_3,shiba_inu_51,31,31,True
@@ -14901,7 +14901,7 @@ noise_1,american_pit_bull_terrier_28,2,30,False
 noise_1,american_pit_bull_terrier_29,2,30,False
 noise_1,american_pit_bull_terrier_2,2,3,False
 noise_1,american_pit_bull_terrier_30,2,7,False
-noise_1,american_pit_bull_terrier_31,2,32,False
+noise_1,american_pit_bull_terrier_31,2,6,False
 noise_1,american_pit_bull_terrier_32,2,18,False
 noise_1,american_pit_bull_terrier_33,2,2,True
 noise_1,american_pit_bull_terrier_35,2,19,False
@@ -15270,7 +15270,7 @@ noise_1,Bengal_94,5,3,False
 noise_1,Bengal_95,5,8,False
 noise_1,Bengal_96,5,33,False
 noise_1,Bengal_97,5,3,False
-noise_1,Bengal_98,5,24,False
+noise_1,Bengal_98,5,35,False
 noise_1,Bengal_99,5,3,False
 noise_1,Bengal_9,5,20,False
 noise_1,Birman_191,6,26,False
@@ -15323,7 +15323,7 @@ noise_1,Birman_51,6,19,False
 noise_1,Birman_52,6,7,False
 noise_1,Birman_53,6,6,True
 noise_1,Birman_54,6,26,False
-noise_1,Birman_55,6,32,False
+noise_1,Birman_55,6,35,False
 noise_1,Birman_56,6,16,False
 noise_1,Birman_57,6,17,False
 noise_1,Birman_58,6,25,False
@@ -15459,7 +15459,7 @@ noise_1,Bombay_94,7,7,True
 noise_1,Bombay_95,7,3,False
 noise_1,Bombay_96,7,7,True
 noise_1,Bombay_97,7,27,False
-noise_1,Bombay_98,7,7,True
+noise_1,Bombay_98,7,22,False
 noise_1,Bombay_9,7,22,False
 noise_1,boxer_191,8,19,False
 noise_1,boxer_192,8,6,False
@@ -15775,7 +15775,7 @@ noise_1,Egyptian_Mau_213,11,25,False
 noise_1,Egyptian_Mau_214,11,13,False
 noise_1,Egyptian_Mau_215,11,6,False
 noise_1,Egyptian_Mau_218,11,34,False
-noise_1,Egyptian_Mau_219,11,24,False
+noise_1,Egyptian_Mau_219,11,4,False
 noise_1,Egyptian_Mau_21,11,25,False
 noise_1,Egyptian_Mau_220,11,12,False
 noise_1,Egyptian_Mau_221,11,30,False
@@ -16105,7 +16105,7 @@ noise_1,german_shorthaired_4,14,14,True
 noise_1,german_shorthaired_50,14,28,False
 noise_1,german_shorthaired_51,14,19,False
 noise_1,german_shorthaired_52,14,22,False
-noise_1,german_shorthaired_53,14,19,False
+noise_1,german_shorthaired_53,14,27,False
 noise_1,german_shorthaired_54,14,14,True
 noise_1,german_shorthaired_55,14,32,False
 noise_1,german_shorthaired_56,14,2,False
@@ -16490,7 +16490,7 @@ noise_1,keeshond_36,18,9,False
 noise_1,keeshond_37,18,34,False
 noise_1,keeshond_38,18,22,False
 noise_1,keeshond_39,18,30,False
-noise_1,keeshond_3,18,22,False
+noise_1,keeshond_3,18,9,False
 noise_1,keeshond_40,18,6,False
 noise_1,keeshond_41,18,34,False
 noise_1,keeshond_42,18,34,False
@@ -16562,7 +16562,7 @@ noise_1,leonberger_193,19,36,False
 noise_1,leonberger_194,19,22,False
 noise_1,leonberger_195,19,19,True
 noise_1,leonberger_196,19,14,False
-noise_1,leonberger_197,19,15,False
+noise_1,leonberger_197,19,31,False
 noise_1,leonberger_198,19,14,False
 noise_1,leonberger_199,19,32,False
 noise_1,leonberger_19,19,5,False
@@ -17254,7 +17254,7 @@ noise_1,pug_95,25,34,False
 noise_1,pug_96,25,29,False
 noise_1,pug_97,25,7,False
 noise_1,pug_98,25,19,False
-noise_1,pug_99,25,21,False
+noise_1,pug_99,25,30,False
 noise_1,pug_9,25,18,False
 noise_1,Ragdoll_203,26,11,False
 noise_1,Ragdoll_204,26,24,False
@@ -17467,7 +17467,7 @@ noise_1,saint_bernard_198,28,3,False
 noise_1,saint_bernard_199,28,8,False
 noise_1,saint_bernard_19,28,33,False
 noise_1,saint_bernard_1,28,17,False
-noise_1,saint_bernard_200,28,36,False
+noise_1,saint_bernard_200,28,12,False
 noise_1,saint_bernard_20,28,26,False
 noise_1,saint_bernard_21,28,25,False
 noise_1,saint_bernard_22,28,4,False
@@ -17760,7 +17760,7 @@ noise_1,shiba_inu_200,31,1,False
 noise_1,shiba_inu_201,31,0,False
 noise_1,shiba_inu_202,31,0,False
 noise_1,shiba_inu_203,31,31,True
-noise_1,shiba_inu_204,31,22,False
+noise_1,shiba_inu_204,31,21,False
 noise_1,shiba_inu_205,31,15,False
 noise_1,shiba_inu_206,31,9,False
 noise_1,shiba_inu_207,31,13,False
@@ -18045,7 +18045,7 @@ noise_1,Sphynx_87,33,35,False
 noise_1,Sphynx_88,33,24,False
 noise_1,Sphynx_89,33,7,False
 noise_1,Sphynx_8,33,11,False
-noise_1,Sphynx_90,33,24,False
+noise_1,Sphynx_90,33,28,False
 noise_1,Sphynx_91,33,5,False
 noise_1,Sphynx_92,33,29,False
 noise_1,Sphynx_93,33,15,False
@@ -19116,7 +19116,7 @@ noise_2,Bombay_81,7,7,True
 noise_2,Bombay_82,7,7,True
 noise_2,Bombay_83,7,7,True
 noise_2,Bombay_84,7,18,False
-noise_2,Bombay_86,7,7,True
+noise_2,Bombay_86,7,22,False
 noise_2,Bombay_87,7,7,True
 noise_2,Bombay_88,7,7,True
 noise_2,Bombay_89,7,7,True
@@ -19689,7 +19689,7 @@ noise_2,english_setter_63,13,14,False
 noise_2,english_setter_64,13,15,False
 noise_2,english_setter_65,13,16,False
 noise_2,english_setter_66,13,15,False
-noise_2,english_setter_67,13,29,False
+noise_2,english_setter_67,13,35,False
 noise_2,english_setter_68,13,15,False
 noise_2,english_setter_69,13,29,False
 noise_2,english_setter_6,13,9,False
@@ -19774,7 +19774,7 @@ noise_2,german_shorthaired_4,14,14,True
 noise_2,german_shorthaired_50,14,28,False
 noise_2,german_shorthaired_51,14,19,False
 noise_2,german_shorthaired_52,14,22,False
-noise_2,german_shorthaired_53,14,19,False
+noise_2,german_shorthaired_53,14,27,False
 noise_2,german_shorthaired_54,14,14,True
 noise_2,german_shorthaired_55,14,32,False
 noise_2,german_shorthaired_56,14,2,False
@@ -19869,7 +19869,7 @@ noise_2,great_pyrenees_45,15,29,False
 noise_2,great_pyrenees_46,15,29,False
 noise_2,great_pyrenees_47,15,26,False
 noise_2,great_pyrenees_48,15,23,False
-noise_2,great_pyrenees_49,15,16,False
+noise_2,great_pyrenees_49,15,27,False
 noise_2,great_pyrenees_4,15,26,False
 noise_2,great_pyrenees_50,15,23,False
 noise_2,great_pyrenees_51,15,33,False
@@ -20665,7 +20665,7 @@ noise_2,Persian_36,23,7,False
 noise_2,Persian_37,23,23,True
 noise_2,Persian_38,23,25,False
 noise_2,Persian_39,23,1,False
-noise_2,Persian_3,23,15,False
+noise_2,Persian_3,23,29,False
 noise_2,Persian_40,23,8,False
 noise_2,Persian_41,23,14,False
 noise_2,Persian_42,23,23,True
@@ -21115,7 +21115,7 @@ noise_2,Russian_Blue_88,27,27,True
 noise_2,Russian_Blue_89,27,27,True
 noise_2,Russian_Blue_8,27,29,False
 noise_2,Russian_Blue_90,27,11,False
-noise_2,Russian_Blue_91,27,0,False
+noise_2,Russian_Blue_91,27,27,True
 noise_2,Russian_Blue_92,27,34,False
 noise_2,Russian_Blue_93,27,34,False
 noise_2,Russian_Blue_94,27,30,False
@@ -21188,7 +21188,7 @@ noise_2,saint_bernard_63,28,1,False
 noise_2,saint_bernard_64,28,32,False
 noise_2,saint_bernard_65,28,10,False
 noise_2,saint_bernard_66,28,28,True
-noise_2,saint_bernard_67,28,11,False
+noise_2,saint_bernard_67,28,0,False
 noise_2,saint_bernard_68,28,28,True
 noise_2,saint_bernard_69,28,35,False
 noise_2,saint_bernard_6,28,10,False
@@ -21275,7 +21275,7 @@ noise_2,samoyed_51,29,1,False
 noise_2,samoyed_52,29,27,False
 noise_2,samoyed_53,29,26,False
 noise_2,samoyed_54,29,33,False
-noise_2,samoyed_55,29,15,False
+noise_2,samoyed_55,29,1,False
 noise_2,samoyed_56,29,35,False
 noise_2,samoyed_57,29,26,False
 noise_2,samoyed_58,29,26,False
@@ -21502,7 +21502,7 @@ noise_2,shiba_inu_77,31,8,False
 noise_2,shiba_inu_78,31,24,False
 noise_2,shiba_inu_79,31,28,False
 noise_2,shiba_inu_7,31,5,False
-noise_2,shiba_inu_80,31,29,False
+noise_2,shiba_inu_80,31,33,False
 noise_2,shiba_inu_81,31,29,False
 noise_2,shiba_inu_82,31,12,False
 noise_2,shiba_inu_83,31,19,False
@@ -21784,12 +21784,12 @@ noise_2,staffordshire_bull_terrier_70,34,0,False
 noise_2,staffordshire_bull_terrier_71,34,21,False
 noise_2,staffordshire_bull_terrier_72,34,7,False
 noise_2,staffordshire_bull_terrier_73,34,32,False
-noise_2,staffordshire_bull_terrier_74,34,21,False
+noise_2,staffordshire_bull_terrier_74,34,7,False
 noise_2,staffordshire_bull_terrier_75,34,13,False
 noise_2,staffordshire_bull_terrier_76,34,34,True
 noise_2,staffordshire_bull_terrier_77,34,1,False
 noise_2,staffordshire_bull_terrier_78,34,1,False
-noise_2,staffordshire_bull_terrier_79,34,14,False
+noise_2,staffordshire_bull_terrier_79,34,22,False
 noise_2,staffordshire_bull_terrier_7,34,33,False
 noise_2,staffordshire_bull_terrier_80,34,12,False
 noise_2,staffordshire_bull_terrier_81,34,23,False
@@ -21908,7 +21908,7 @@ noise_2,wheaten_terrier_92,35,19,False
 noise_2,wheaten_terrier_93,35,26,False
 noise_2,wheaten_terrier_94,35,1,False
 noise_2,wheaten_terrier_95,35,0,False
-noise_2,wheaten_terrier_96,35,2,False
+noise_2,wheaten_terrier_96,35,11,False
 noise_2,wheaten_terrier_97,35,22,False
 noise_2,wheaten_terrier_98,35,33,False
 noise_2,wheaten_terrier_99,35,24,False
@@ -23227,7 +23227,7 @@ noise_3,english_cocker_spaniel_35,12,14,False
 noise_3,english_cocker_spaniel_36,12,5,False
 noise_3,english_cocker_spaniel_37,12,0,False
 noise_3,english_cocker_spaniel_38,12,16,False
-noise_3,english_cocker_spaniel_39,12,22,False
+noise_3,english_cocker_spaniel_39,12,30,False
 noise_3,english_cocker_spaniel_3,12,27,False
 noise_3,english_cocker_spaniel_40,12,27,False
 noise_3,english_cocker_spaniel_41,12,21,False
@@ -23763,7 +23763,7 @@ noise_3,japanese_chin_68,17,18,False
 noise_3,japanese_chin_69,17,18,False
 noise_3,japanese_chin_6,17,1,False
 noise_3,japanese_chin_70,17,4,False
-noise_3,japanese_chin_71,17,3,False
+noise_3,japanese_chin_71,17,18,False
 noise_3,japanese_chin_72,17,21,False
 noise_3,japanese_chin_73,17,13,False
 noise_3,japanese_chin_74,17,14,False
@@ -23779,7 +23779,7 @@ noise_3,japanese_chin_82,17,18,False
 noise_3,japanese_chin_83,17,15,False
 noise_3,japanese_chin_84,17,33,False
 noise_3,japanese_chin_85,17,31,False
-noise_3,japanese_chin_86,17,18,False
+noise_3,japanese_chin_86,17,35,False
 noise_3,japanese_chin_87,17,27,False
 noise_3,japanese_chin_88,17,24,False
 noise_3,japanese_chin_89,17,24,False
@@ -24139,7 +24139,7 @@ noise_3,miniature_pinscher_47,21,16,False
 noise_3,miniature_pinscher_48,21,27,False
 noise_3,miniature_pinscher_49,21,20,False
 noise_3,miniature_pinscher_4,21,9,False
-noise_3,miniature_pinscher_50,21,35,False
+noise_3,miniature_pinscher_50,21,12,False
 noise_3,miniature_pinscher_51,21,35,False
 noise_3,miniature_pinscher_52,21,14,False
 noise_3,miniature_pinscher_53,21,7,False
@@ -24819,7 +24819,7 @@ noise_3,saint_bernard_29,28,12,False
 noise_3,saint_bernard_2,28,17,False
 noise_3,saint_bernard_30,28,14,False
 noise_3,saint_bernard_31,28,29,False
-noise_3,saint_bernard_32,28,18,False
+noise_3,saint_bernard_32,28,7,False
 noise_3,saint_bernard_33,28,27,False
 noise_3,saint_bernard_34,28,22,False
 noise_3,saint_bernard_35,28,23,False
@@ -25154,7 +25154,7 @@ noise_3,shiba_inu_61,31,12,False
 noise_3,shiba_inu_62,31,29,False
 noise_3,shiba_inu_63,31,5,False
 noise_3,shiba_inu_64,31,0,False
-noise_3,shiba_inu_65,31,29,False
+noise_3,shiba_inu_65,31,13,False
 noise_3,shiba_inu_66,31,33,False
 noise_3,shiba_inu_67,31,20,False
 noise_3,shiba_inu_68,31,10,False
@@ -25246,7 +25246,7 @@ noise_3,Siamese_50,32,18,False
 noise_3,Siamese_51,32,22,False
 noise_3,Siamese_52,32,11,False
 noise_3,Siamese_53,32,7,False
-noise_3,Siamese_54,32,12,False
+noise_3,Siamese_54,32,7,False
 noise_3,Siamese_55,32,15,False
 noise_3,Siamese_56,32,15,False
 noise_3,Siamese_57,32,34,False
@@ -25447,7 +25447,7 @@ noise_3,staffordshire_bull_terrier_65,34,21,False
 noise_3,staffordshire_bull_terrier_66,34,14,False
 noise_3,staffordshire_bull_terrier_67,34,19,False
 noise_3,staffordshire_bull_terrier_68,34,11,False
-noise_3,staffordshire_bull_terrier_69,34,3,False
+noise_3,staffordshire_bull_terrier_69,34,2,False
 noise_3,staffordshire_bull_terrier_6,34,34,True
 noise_3,staffordshire_bull_terrier_70,34,0,False
 noise_3,staffordshire_bull_terrier_71,34,21,False
@@ -26256,7 +26256,7 @@ jpeg_1,Bengal_75,5,8,False
 jpeg_1,Bengal_76,5,0,False
 jpeg_1,Bengal_77,5,20,False
 jpeg_1,Bengal_78,5,2,False
-jpeg_1,Bengal_79,5,20,False
+jpeg_1,Bengal_79,5,36,False
 jpeg_1,Bengal_7,5,0,False
 jpeg_1,Bengal_80,5,3,False
 jpeg_1,Bengal_81,5,21,False
@@ -26541,7 +26541,7 @@ jpeg_1,boxer_72,8,7,False
 jpeg_1,boxer_73,8,9,False
 jpeg_1,boxer_74,8,21,False
 jpeg_1,boxer_75,8,5,False
-jpeg_1,boxer_76,8,23,False
+jpeg_1,boxer_76,8,24,False
 jpeg_1,boxer_77,8,19,False
 jpeg_1,boxer_78,8,10,False
 jpeg_1,boxer_79,8,6,False
@@ -26882,7 +26882,7 @@ jpeg_1,english_cocker_spaniel_22,12,32,False
 jpeg_1,english_cocker_spaniel_23,12,14,False
 jpeg_1,english_cocker_spaniel_24,12,36,False
 jpeg_1,english_cocker_spaniel_25,12,6,False
-jpeg_1,english_cocker_spaniel_26,12,36,False
+jpeg_1,english_cocker_spaniel_26,12,0,False
 jpeg_1,english_cocker_spaniel_27,12,22,False
 jpeg_1,english_cocker_spaniel_28,12,4,False
 jpeg_1,english_cocker_spaniel_29,12,12,True
@@ -27112,7 +27112,7 @@ jpeg_1,german_shorthaired_4,14,14,True
 jpeg_1,german_shorthaired_50,14,28,False
 jpeg_1,german_shorthaired_51,14,19,False
 jpeg_1,german_shorthaired_52,14,22,False
-jpeg_1,german_shorthaired_53,14,19,False
+jpeg_1,german_shorthaired_53,14,27,False
 jpeg_1,german_shorthaired_54,14,14,True
 jpeg_1,german_shorthaired_55,14,32,False
 jpeg_1,german_shorthaired_56,14,2,False
@@ -27193,7 +27193,7 @@ jpeg_1,great_pyrenees_32,15,4,False
 jpeg_1,great_pyrenees_33,15,33,False
 jpeg_1,great_pyrenees_34,15,26,False
 jpeg_1,great_pyrenees_35,15,15,True
-jpeg_1,great_pyrenees_36,15,9,False
+jpeg_1,great_pyrenees_36,15,5,False
 jpeg_1,great_pyrenees_37,15,11,False
 jpeg_1,great_pyrenees_38,15,6,False
 jpeg_1,great_pyrenees_39,15,5,False
@@ -27305,7 +27305,7 @@ jpeg_1,havanese_43,16,17,False
 jpeg_1,havanese_44,16,11,False
 jpeg_1,havanese_45,16,19,False
 jpeg_1,havanese_46,16,5,False
-jpeg_1,havanese_47,16,24,False
+jpeg_1,havanese_47,16,35,False
 jpeg_1,havanese_48,16,33,False
 jpeg_1,havanese_49,16,4,False
 jpeg_1,havanese_4,16,1,False
@@ -27385,7 +27385,7 @@ jpeg_1,japanese_chin_25,17,25,False
 jpeg_1,japanese_chin_26,17,17,True
 jpeg_1,japanese_chin_27,17,34,False
 jpeg_1,japanese_chin_28,17,18,False
-jpeg_1,japanese_chin_29,17,3,False
+jpeg_1,japanese_chin_29,17,2,False
 jpeg_1,japanese_chin_2,17,26,False
 jpeg_1,japanese_chin_30,17,17,True
 jpeg_1,japanese_chin_31,17,36,False
@@ -28877,7 +28877,7 @@ jpeg_1,Siamese_22,32,33,False
 jpeg_1,Siamese_231,32,17,False
 jpeg_1,Siamese_232,32,36,False
 jpeg_1,Siamese_233,32,25,False
-jpeg_1,Siamese_234,32,32,True
+jpeg_1,Siamese_234,32,8,False
 jpeg_1,Siamese_237,32,17,False
 jpeg_1,Siamese_238,32,29,False
 jpeg_1,Siamese_23,32,18,False
@@ -29123,7 +29123,7 @@ jpeg_1,staffordshire_bull_terrier_71,34,21,False
 jpeg_1,staffordshire_bull_terrier_72,34,7,False
 jpeg_1,staffordshire_bull_terrier_73,34,32,False
 jpeg_1,staffordshire_bull_terrier_74,34,7,False
-jpeg_1,staffordshire_bull_terrier_75,34,27,False
+jpeg_1,staffordshire_bull_terrier_75,34,13,False
 jpeg_1,staffordshire_bull_terrier_76,34,34,True
 jpeg_1,staffordshire_bull_terrier_77,34,1,False
 jpeg_1,staffordshire_bull_terrier_78,34,1,False
@@ -29924,7 +29924,7 @@ jpeg_2,Bengal_74,5,0,False
 jpeg_2,Bengal_75,5,8,False
 jpeg_2,Bengal_76,5,0,False
 jpeg_2,Bengal_77,5,20,False
-jpeg_2,Bengal_78,5,13,False
+jpeg_2,Bengal_78,5,2,False
 jpeg_2,Bengal_79,5,36,False
 jpeg_2,Bengal_7,5,0,False
 jpeg_2,Bengal_80,5,20,False
@@ -30876,7 +30876,7 @@ jpeg_2,great_pyrenees_45,15,29,False
 jpeg_2,great_pyrenees_46,15,29,False
 jpeg_2,great_pyrenees_47,15,29,False
 jpeg_2,great_pyrenees_48,15,23,False
-jpeg_2,great_pyrenees_49,15,16,False
+jpeg_2,great_pyrenees_49,15,27,False
 jpeg_2,great_pyrenees_4,15,26,False
 jpeg_2,great_pyrenees_50,15,29,False
 jpeg_2,great_pyrenees_51,15,33,False
@@ -31238,7 +31238,7 @@ jpeg_2,leonberger_193,19,36,False
 jpeg_2,leonberger_194,19,22,False
 jpeg_2,leonberger_195,19,19,True
 jpeg_2,leonberger_196,19,14,False
-jpeg_2,leonberger_197,19,15,False
+jpeg_2,leonberger_197,19,31,False
 jpeg_2,leonberger_198,19,14,False
 jpeg_2,leonberger_199,19,32,False
 jpeg_2,leonberger_19,19,5,False
@@ -32195,7 +32195,7 @@ jpeg_2,saint_bernard_63,28,1,False
 jpeg_2,saint_bernard_64,28,32,False
 jpeg_2,saint_bernard_65,28,10,False
 jpeg_2,saint_bernard_66,28,28,True
-jpeg_2,saint_bernard_67,28,0,False
+jpeg_2,saint_bernard_67,28,1,False
 jpeg_2,saint_bernard_68,28,28,True
 jpeg_2,saint_bernard_69,28,35,False
 jpeg_2,saint_bernard_6,28,10,False
@@ -32653,7 +32653,7 @@ jpeg_2,Sphynx_239,33,26,False
 jpeg_2,Sphynx_23,33,4,False
 jpeg_2,Sphynx_240,33,36,False
 jpeg_2,Sphynx_241,33,24,False
-jpeg_2,Sphynx_242,33,3,False
+jpeg_2,Sphynx_242,33,9,False
 jpeg_2,Sphynx_243,33,29,False
 jpeg_2,Sphynx_244,33,11,False
 jpeg_2,Sphynx_245,33,20,False
@@ -32756,7 +32756,7 @@ jpeg_2,staffordshire_bull_terrier_39,34,30,False
 jpeg_2,staffordshire_bull_terrier_3,34,8,False
 jpeg_2,staffordshire_bull_terrier_40,34,15,False
 jpeg_2,staffordshire_bull_terrier_41,34,24,False
-jpeg_2,staffordshire_bull_terrier_42,34,14,False
+jpeg_2,staffordshire_bull_terrier_42,34,32,False
 jpeg_2,staffordshire_bull_terrier_43,34,36,False
 jpeg_2,staffordshire_bull_terrier_44,34,30,False
 jpeg_2,staffordshire_bull_terrier_45,34,34,True
@@ -32767,7 +32767,7 @@ jpeg_2,staffordshire_bull_terrier_49,34,5,False
 jpeg_2,staffordshire_bull_terrier_4,34,24,False
 jpeg_2,staffordshire_bull_terrier_50,34,14,False
 jpeg_2,staffordshire_bull_terrier_51,34,9,False
-jpeg_2,staffordshire_bull_terrier_52,34,9,False
+jpeg_2,staffordshire_bull_terrier_52,34,27,False
 jpeg_2,staffordshire_bull_terrier_53,34,10,False
 jpeg_2,staffordshire_bull_terrier_54,34,18,False
 jpeg_2,staffordshire_bull_terrier_55,34,34,True
@@ -32991,7 +32991,7 @@ jpeg_2,yorkshire_terrier_70,36,12,False
 jpeg_2,yorkshire_terrier_71,36,7,False
 jpeg_2,yorkshire_terrier_72,36,21,False
 jpeg_2,yorkshire_terrier_73,36,19,False
-jpeg_2,yorkshire_terrier_74,36,28,False
+jpeg_2,yorkshire_terrier_74,36,0,False
 jpeg_2,yorkshire_terrier_75,36,24,False
 jpeg_2,yorkshire_terrier_76,36,12,False
 jpeg_2,yorkshire_terrier_77,36,23,False
@@ -33052,7 +33052,7 @@ jpeg_3,Abyssinian_27,0,36,False
 jpeg_3,Abyssinian_29,0,33,False
 jpeg_3,Abyssinian_2,0,22,False
 jpeg_3,Abyssinian_30,0,36,False
-jpeg_3,Abyssinian_31,0,6,False
+jpeg_3,Abyssinian_31,0,2,False
 jpeg_3,Abyssinian_32,0,5,False
 jpeg_3,Abyssinian_33,0,17,False
 jpeg_3,Abyssinian_36,0,9,False
@@ -33079,7 +33079,7 @@ jpeg_3,Abyssinian_5,0,33,False
 jpeg_3,Abyssinian_60,0,30,False
 jpeg_3,Abyssinian_61,0,5,False
 jpeg_3,Abyssinian_62,0,7,False
-jpeg_3,Abyssinian_63,0,3,False
+jpeg_3,Abyssinian_63,0,8,False
 jpeg_3,Abyssinian_65,0,11,False
 jpeg_3,Abyssinian_66,0,12,False
 jpeg_3,Abyssinian_67,0,25,False
@@ -33627,14 +33627,14 @@ jpeg_3,Birman_197,6,32,False
 jpeg_3,Birman_198,6,17,False
 jpeg_3,Birman_199,6,25,False
 jpeg_3,Birman_19,6,18,False
-jpeg_3,Birman_1,6,26,False
+jpeg_3,Birman_1,6,15,False
 jpeg_3,Birman_200,6,26,False
 jpeg_3,Birman_201,6,25,False
 jpeg_3,Birman_20,6,25,False
 jpeg_3,Birman_21,6,34,False
 jpeg_3,Birman_22,6,34,False
 jpeg_3,Birman_23,6,17,False
-jpeg_3,Birman_24,6,29,False
+jpeg_3,Birman_24,6,36,False
 jpeg_3,Birman_25,6,25,False
 jpeg_3,Birman_26,6,10,False
 jpeg_3,Birman_27,6,6,True
@@ -33749,7 +33749,7 @@ jpeg_3,Bombay_3,7,7,True
 jpeg_3,Bombay_40,7,7,True
 jpeg_3,Bombay_41,7,7,True
 jpeg_3,Bombay_42,7,30,False
-jpeg_3,Bombay_43,7,30,False
+jpeg_3,Bombay_43,7,7,True
 jpeg_3,Bombay_45,7,9,False
 jpeg_3,Bombay_46,7,30,False
 jpeg_3,Bombay_47,7,7,True
@@ -33889,7 +33889,7 @@ jpeg_3,boxer_81,8,5,False
 jpeg_3,boxer_83,8,8,True
 jpeg_3,boxer_84,8,0,False
 jpeg_3,boxer_85,8,26,False
-jpeg_3,boxer_86,8,25,False
+jpeg_3,boxer_86,8,8,True
 jpeg_3,boxer_87,8,8,True
 jpeg_3,boxer_88,8,36,False
 jpeg_3,boxer_89,8,20,False
@@ -34009,7 +34009,7 @@ jpeg_3,chihuahua_191,10,20,False
 jpeg_3,chihuahua_192,10,21,False
 jpeg_3,chihuahua_193,10,16,False
 jpeg_3,chihuahua_194,10,32,False
-jpeg_3,chihuahua_195,10,17,False
+jpeg_3,chihuahua_195,10,4,False
 jpeg_3,chihuahua_196,10,15,False
 jpeg_3,chihuahua_197,10,21,False
 jpeg_3,chihuahua_198,10,33,False
@@ -34497,7 +34497,7 @@ jpeg_3,german_shorthaired_92,14,30,False
 jpeg_3,german_shorthaired_93,14,5,False
 jpeg_3,german_shorthaired_94,14,19,False
 jpeg_3,german_shorthaired_95,14,9,False
-jpeg_3,german_shorthaired_96,14,0,False
+jpeg_3,german_shorthaired_96,14,12,False
 jpeg_3,german_shorthaired_97,14,19,False
 jpeg_3,german_shorthaired_98,14,34,False
 jpeg_3,german_shorthaired_99,14,17,False
@@ -34731,7 +34731,7 @@ jpeg_3,japanese_chin_32,17,25,False
 jpeg_3,japanese_chin_33,17,16,False
 jpeg_3,japanese_chin_34,17,28,False
 jpeg_3,japanese_chin_35,17,2,False
-jpeg_3,japanese_chin_36,17,32,False
+jpeg_3,japanese_chin_36,17,1,False
 jpeg_3,japanese_chin_37,17,2,False
 jpeg_3,japanese_chin_38,17,26,False
 jpeg_3,japanese_chin_39,17,29,False
@@ -35109,7 +35109,7 @@ jpeg_3,miniature_pinscher_195,21,33,False
 jpeg_3,miniature_pinscher_196,21,19,False
 jpeg_3,miniature_pinscher_197,21,36,False
 jpeg_3,miniature_pinscher_198,21,36,False
-jpeg_3,miniature_pinscher_199,21,22,False
+jpeg_3,miniature_pinscher_199,21,10,False
 jpeg_3,miniature_pinscher_19,21,21,True
 jpeg_3,miniature_pinscher_1,21,0,False
 jpeg_3,miniature_pinscher_200,21,0,False
@@ -35189,7 +35189,7 @@ jpeg_3,miniature_pinscher_86,21,19,False
 jpeg_3,miniature_pinscher_87,21,14,False
 jpeg_3,miniature_pinscher_88,21,14,False
 jpeg_3,miniature_pinscher_89,21,30,False
-jpeg_3,miniature_pinscher_8,21,24,False
+jpeg_3,miniature_pinscher_8,21,33,False
 jpeg_3,miniature_pinscher_90,21,0,False
 jpeg_3,miniature_pinscher_91,21,15,False
 jpeg_3,miniature_pinscher_92,21,7,False
@@ -35627,7 +35627,7 @@ jpeg_3,Ragdoll_260,26,29,False
 jpeg_3,Ragdoll_261,26,35,False
 jpeg_3,Ragdoll_262,26,10,False
 jpeg_3,Ragdoll_263,26,26,True
-jpeg_3,Ragdoll_264,26,2,False
+jpeg_3,Ragdoll_264,26,20,False
 jpeg_3,Ragdoll_265,26,29,False
 jpeg_3,Ragdoll_26,26,19,False
 jpeg_3,Ragdoll_27,26,7,False
@@ -35744,7 +35744,7 @@ jpeg_3,Russian_Blue_33,27,11,False
 jpeg_3,Russian_Blue_34,27,30,False
 jpeg_3,Russian_Blue_35,27,27,True
 jpeg_3,Russian_Blue_36,27,9,False
-jpeg_3,Russian_Blue_38,27,27,True
+jpeg_3,Russian_Blue_38,27,19,False
 jpeg_3,Russian_Blue_40,27,9,False
 jpeg_3,Russian_Blue_41,27,34,False
 jpeg_3,Russian_Blue_43,27,9,False

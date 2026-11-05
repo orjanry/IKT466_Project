@@ -20,56 +20,56 @@
     "components": 50,
     "C": 0.01,
     "val_acc": 0.11413043478260869,
-    "pca_explained_variance": 0.8478071689605713
+    "pca_explained_variance": 0.8478074669837952
   },
   "validation_grid": [
     {
       "components": 50,
       "C": 0.01,
       "val_acc": 0.11413043478260869,
-      "fit_seconds": 0.7
+      "fit_seconds": 0.8
     },
     {
       "components": 50,
       "C": 0.1,
       "val_acc": 0.10461956521739131,
-      "fit_seconds": 0.6
+      "fit_seconds": 0.8
     },
     {
       "components": 50,
       "C": 1.0,
       "val_acc": 0.10326086956521739,
-      "fit_seconds": 0.6
+      "fit_seconds": 1.0
     },
     {
       "components": 100,
       "C": 0.01,
-      "val_acc": 0.09510869565217392,
-      "fit_seconds": 0.8
+      "val_acc": 0.09646739130434782,
+      "fit_seconds": 1.2
     },
     {
       "components": 100,
       "C": 0.1,
-      "val_acc": 0.08967391304347826,
-      "fit_seconds": 1.0
+      "val_acc": 0.08831521739130435,
+      "fit_seconds": 1.8
     },
     {
       "components": 100,
       "C": 1.0,
       "val_acc": 0.09239130434782608,
-      "fit_seconds": 1.1
+      "fit_seconds": 1.8
     },
     {
       "components": 200,
       "C": 0.01,
       "val_acc": 0.09918478260869565,
-      "fit_seconds": 1.9
+      "fit_seconds": 1.6
     },
     {
       "components": 200,
       "C": 0.1,
       "val_acc": 0.09782608695652174,
-      "fit_seconds": 2.4
+      "fit_seconds": 2.5
     },
     {
       "components": 200,
@@ -79,13 +79,13 @@
     }
   ],
   "test": {
-    "accuracy": 0.09348596347778686,
-    "macro_f1": 0.08852454783508547
+    "accuracy": 0.09321340964840556,
+    "macro_f1": 0.0882519182585708
   },
   "test_conditions": {
     "clean": {
-      "accuracy": 0.09348596347778686,
-      "macro_f1": 0.08852454783508547,
+      "accuracy": 0.09321340964840556,
+      "macro_f1": 0.0882519182585708,
       "per_class_accuracy": {
         "Abyssinian": 0.10204081632653061,
         "american_bulldog": 0.1,
@@ -98,7 +98,7 @@
         "boxer": 0.050505050505050504,
         "British_Shorthair": 0.03,
         "chihuahua": 0.02,
-        "Egyptian_Mau": 0.13402061855670103,
+        "Egyptian_Mau": 0.12371134020618557,
         "english_cocker_spaniel": 0.04,
         "english_setter": 0.02,
         "german_shorthaired": 0.17,
@@ -129,8 +129,8 @@
       "relative_drop": 0.0
     },
     "blur_1": {
-      "accuracy": 0.09348596347778686,
-      "macro_f1": 0.08836880489018877,
+      "accuracy": 0.09375851730716817,
+      "macro_f1": 0.08858772324716713,
       "per_class_accuracy": {
         "Abyssinian": 0.10204081632653061,
         "american_bulldog": 0.1,
@@ -154,7 +154,7 @@
         "leonberger": 0.09,
         "Maine_Coon": 0.04,
         "miniature_pinscher": 0.04,
-        "newfoundland": 0.25,
+        "newfoundland": 0.26,
         "Persian": 0.09,
         "pomeranian": 0.07,
         "pug": 0.09,
@@ -170,25 +170,25 @@
         "wheaten_terrier": 0.03,
         "yorkshire_terrier": 0.08
       },
-      "absolute_drop": 0.0,
-      "relative_drop": 0.0
+      "absolute_drop": -0.000545107658762603,
+      "relative_drop": -0.005847953216374241
     },
     "blur_2": {
       "accuracy": 0.09375851730716817,
-      "macro_f1": 0.08871200957811728,
+      "macro_f1": 0.08869132035840994,
       "per_class_accuracy": {
         "Abyssinian": 0.10204081632653061,
         "american_bulldog": 0.1,
         "american_pit_bull_terrier": 0.03,
         "basset_hound": 0.1,
-        "beagle": 0.07,
+        "beagle": 0.08,
         "Bengal": 0.05,
         "Birman": 0.03,
         "Bombay": 0.42045454545454547,
         "boxer": 0.050505050505050504,
         "British_Shorthair": 0.03,
         "chihuahua": 0.02,
-        "Egyptian_Mau": 0.13402061855670103,
+        "Egyptian_Mau": 0.12371134020618557,
         "english_cocker_spaniel": 0.04,
         "english_setter": 0.02,
         "german_shorthaired": 0.17,
@@ -203,10 +203,10 @@
         "Persian": 0.09,
         "pomeranian": 0.07,
         "pug": 0.09,
-        "Ragdoll": 0.12,
+        "Ragdoll": 0.11,
         "Russian_Blue": 0.17,
         "saint_bernard": 0.08,
-        "samoyed": 0.21,
+        "samoyed": 0.22,
         "scottish_terrier": 0.13131313131313133,
         "shiba_inu": 0.05,
         "Siamese": 0.09,
@@ -215,12 +215,12 @@
         "wheaten_terrier": 0.03,
         "yorkshire_terrier": 0.08
       },
-      "absolute_drop": -0.00027255382938130845,
-      "relative_drop": -0.0029154518950437924
+      "absolute_drop": -0.000545107658762603,
+      "relative_drop": -0.005847953216374241
     },
     "blur_3": {
-      "accuracy": 0.09457617879531208,
-      "macro_f1": 0.08909891874645699,
+      "accuracy": 0.09484873262469337,
+      "macro_f1": 0.08938943453162711,
       "per_class_accuracy": {
         "Abyssinian": 0.12244897959183673,
         "american_bulldog": 0.11,
@@ -233,7 +233,7 @@
         "boxer": 0.050505050505050504,
         "British_Shorthair": 0.03,
         "chihuahua": 0.02,
-        "Egyptian_Mau": 0.12371134020618557,
+        "Egyptian_Mau": 0.13402061855670103,
         "english_cocker_spaniel": 0.04,
         "english_setter": 0.02,
         "german_shorthaired": 0.17,
@@ -260,12 +260,12 @@
         "wheaten_terrier": 0.03,
         "yorkshire_terrier": 0.08
       },
-      "absolute_drop": -0.00109021531752522,
-      "relative_drop": -0.01166180758017502
+      "absolute_drop": -0.001635322976287809,
+      "relative_drop": -0.017543859649122723
     },
     "noise_1": {
-      "accuracy": 0.09321340964840556,
-      "macro_f1": 0.08818384168675904,
+      "accuracy": 0.09294085581902425,
+      "macro_f1": 0.08800479608032383,
       "per_class_accuracy": {
         "Abyssinian": 0.10204081632653061,
         "american_bulldog": 0.1,
@@ -274,7 +274,7 @@
         "beagle": 0.08,
         "Bengal": 0.05,
         "Birman": 0.03,
-        "Bombay": 0.3977272727272727,
+        "Bombay": 0.38636363636363635,
         "boxer": 0.050505050505050504,
         "British_Shorthair": 0.03,
         "chihuahua": 0.02,
@@ -305,12 +305,12 @@
         "wheaten_terrier": 0.03,
         "yorkshire_terrier": 0.08
       },
-      "absolute_drop": 0.0002725538293812946,
-      "relative_drop": 0.002915451895043644
+      "absolute_drop": 0.00027255382938130845,
+      "relative_drop": 0.002923976608187195
     },
     "noise_2": {
       "accuracy": 0.09375851730716817,
-      "macro_f1": 0.08893071053283287,
+      "macro_f1": 0.08890863949794439,
       "per_class_accuracy": {
         "Abyssinian": 0.10204081632653061,
         "american_bulldog": 0.1,
@@ -319,7 +319,7 @@
         "beagle": 0.08,
         "Bengal": 0.05,
         "Birman": 0.03,
-        "Bombay": 0.38636363636363635,
+        "Bombay": 0.375,
         "boxer": 0.06060606060606061,
         "British_Shorthair": 0.04,
         "chihuahua": 0.02,
@@ -339,7 +339,7 @@
         "pomeranian": 0.07,
         "pug": 0.09,
         "Ragdoll": 0.12,
-        "Russian_Blue": 0.16,
+        "Russian_Blue": 0.17,
         "saint_bernard": 0.08,
         "samoyed": 0.22,
         "scottish_terrier": 0.13131313131313133,
@@ -350,12 +350,12 @@
         "wheaten_terrier": 0.03,
         "yorkshire_terrier": 0.08
       },
-      "absolute_drop": -0.00027255382938130845,
-      "relative_drop": -0.0029154518950437924
+      "absolute_drop": -0.000545107658762603,
+      "relative_drop": -0.005847953216374241
     },
     "noise_3": {
       "accuracy": 0.09484873262469337,
-      "macro_f1": 0.0908462543916606,
+      "macro_f1": 0.0908066162213802,
       "per_class_accuracy": {
         "Abyssinian": 0.10204081632653061,
         "american_bulldog": 0.11,
@@ -395,12 +395,12 @@
         "wheaten_terrier": 0.03,
         "yorkshire_terrier": 0.08
       },
-      "absolute_drop": -0.0013627691469065145,
-      "relative_drop": -0.014577259475218665
+      "absolute_drop": -0.001635322976287809,
+      "relative_drop": -0.017543859649122723
     },
     "jpeg_1": {
-      "accuracy": 0.09403107113654947,
-      "macro_f1": 0.08878464823030581,
+      "accuracy": 0.09375851730716817,
+      "macro_f1": 0.0885120468193679,
       "per_class_accuracy": {
         "Abyssinian": 0.10204081632653061,
         "american_bulldog": 0.1,
@@ -434,18 +434,18 @@
         "samoyed": 0.22,
         "scottish_terrier": 0.13131313131313133,
         "shiba_inu": 0.05,
-        "Siamese": 0.09,
+        "Siamese": 0.08,
         "Sphynx": 0.06,
         "staffordshire_bull_terrier": 0.07865168539325842,
         "wheaten_terrier": 0.03,
         "yorkshire_terrier": 0.08
       },
-      "absolute_drop": -0.0005451076587626169,
-      "relative_drop": -0.005830903790087585
+      "absolute_drop": -0.000545107658762603,
+      "relative_drop": -0.005847953216374241
     },
     "jpeg_2": {
       "accuracy": 0.09512128645407468,
-      "macro_f1": 0.09016239386254576,
+      "macro_f1": 0.09015122404797583,
       "per_class_accuracy": {
         "Abyssinian": 0.10204081632653061,
         "american_bulldog": 0.11,
@@ -485,12 +485,12 @@
         "wheaten_terrier": 0.03,
         "yorkshire_terrier": 0.08
       },
-      "absolute_drop": -0.001635322976287823,
-      "relative_drop": -0.017492711370262457
+      "absolute_drop": -0.0019078768056691175,
+      "relative_drop": -0.02046783625730992
     },
     "jpeg_3": {
-      "accuracy": 0.0970291632597438,
-      "macro_f1": 0.09119473792778185,
+      "accuracy": 0.0973017170891251,
+      "macro_f1": 0.09153489682645292,
       "per_class_accuracy": {
         "Abyssinian": 0.11224489795918367,
         "american_bulldog": 0.12,
@@ -499,8 +499,8 @@
         "beagle": 0.1,
         "Bengal": 0.05,
         "Birman": 0.04,
-        "Bombay": 0.375,
-        "boxer": 0.0707070707070707,
+        "Bombay": 0.38636363636363635,
+        "boxer": 0.08080808080808081,
         "British_Shorthair": 0.07,
         "chihuahua": 0.02,
         "Egyptian_Mau": 0.14432989690721648,
@@ -519,7 +519,7 @@
         "pomeranian": 0.09,
         "pug": 0.07,
         "Ragdoll": 0.08,
-        "Russian_Blue": 0.18,
+        "Russian_Blue": 0.17,
         "saint_bernard": 0.1,
         "samoyed": 0.24,
         "scottish_terrier": 0.1414141414141414,
@@ -530,8 +530,8 @@
         "wheaten_terrier": 0.02,
         "yorkshire_terrier": 0.09
       },
-      "absolute_drop": -0.0035431997819569405,
-      "relative_drop": -0.03790087463556856
+      "absolute_drop": -0.0040883074407195436,
+      "relative_drop": -0.04385964912280703
     }
   }
 }
