@@ -165,7 +165,6 @@ def main():
     g = torch.Generator().manual_seed(args.seed)
     train_loader = DataLoader(train_ds, shuffle=True, generator=g, **loader_args)
     val_loader = DataLoader(val_ds, shuffle=False, **loader_args)
-    test_loader = DataLoader(test_ds, shuffle=False, **loader_args)
 
     model = SmallCNN(dropout=args.dropout).to(device)
     n_params = sum(p.numel() for p in model.parameters())
@@ -205,6 +204,11 @@ def main():
         writer.writerows(history)
 
     # Final evaluation on test, once, with the best checkpoint
+    # Shut down the persistent train/val workers before starting test workers.
+    # Otherwise Windows can run out of page file space (WinError 1455), since
+    # every worker process loads its own copy of the CUDA libraries.
+    del train_loader, val_loader
+    test_loader = DataLoader(test_ds, shuffle=False, **loader_args)
     model.load_state_dict(torch.load(ckpt_path, map_location=device))
     _, test_acc, test_pred, test_y = run_epoch(model, test_loader, loss_fn, device)
     test_f1 = f1_score(test_y, test_pred, average="macro")
