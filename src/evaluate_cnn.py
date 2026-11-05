@@ -10,17 +10,21 @@ clean condition goes through exactly the same steps, so every accuracy drop
 is caused by the corruption alone.
 
 Usage (from the repo root), after training with train_cnn.py:
-    python src/evaluate_cnn.py                  # seeds 42 43 44 (skips missing ones)
+    python src/evaluate_cnn.py --run-names e80_seed42 e80_seed43 e80_seed44   # main models
+    python src/evaluate_cnn.py                  # runs seed42 seed43 seed44 (skips missing ones)
     python src/evaluate_cnn.py --seeds 42
 
-Input:
-    checkpoints/cnn_seed42.pt          weights from train_cnn.py
-    results/cnn/seed42/metrics.json    used to read the training config
+A run name is the name train_cnn.py used for its output (--run-name), which
+defaults to seed<seed>. --run-names overrides --seeds.
+
+Input (for run name <run>):
+    checkpoints/cnn_<run>.pt           weights from train_cnn.py
+    results/cnn/<run>/metrics.json     used to read the training config
 
 Output:
-    results/cnn/seed42/corruptions.json            metrics per condition
-    results/cnn/seed42/predictions_corrupted.csv   predictions for every condition
-    results/cnn/summary.json                       mean and std over seeds
+    results/cnn/<run>/corruptions.json             metrics per condition
+    results/cnn/<run>/predictions_corrupted.csv    predictions for every condition
+    results/cnn/summary.json                       mean and std over the runs
 """
 
 import argparse
@@ -74,6 +78,8 @@ def main():
     parser.add_argument("--data-root", default="data")
     parser.add_argument("--splits", default="splits")
     parser.add_argument("--seeds", type=int, nargs="+", default=[42, 43, 44])
+    parser.add_argument("--run-names", nargs="+", default=None,
+                        help="runs to evaluate, e.g. e80_seed42 (overrides --seeds)")
     parser.add_argument("--batch-size", type=int, default=64)
     parser.add_argument("--workers", type=int, default=2)
     args = parser.parse_args()
@@ -85,22 +91,26 @@ def main():
         test_rows = list(csv.DictReader(f))
     breeds = {int(r["label"]): r["breed"] for r in test_rows}
 
+    runs = args.run_names or [f"seed{s}" for s in args.seeds]
     per_seed = {}
-    for seed in args.seeds:
-        run_dir = Path("results/cnn") / f"seed{seed}"
-        ckpt = Path("checkpoints") / f"cnn_seed{seed}.pt"
+    run_of_seed = {}
+    for run in runs:
+        run_dir = Path("results/cnn") / run
+        ckpt = Path("checkpoints") / f"cnn_{run}.pt"
         if not ckpt.exists() or not (run_dir / "metrics.json").exists():
-            print(f"Seed {seed}: no checkpoint or metrics found, skipping "
-                  f"(train it first with: python src/train_cnn.py --seed {seed})")
+            print(f"Run {run}: no checkpoint or metrics found, skipping "
+                  f"(expected {ckpt} and {run_dir / 'metrics.json'})")
             continue
         with open(run_dir / "metrics.json") as f:
             config = json.load(f)["config"]
+        seed = config["seed"]
 
         model = SmallCNN(dropout=config["dropout"]).to(device)
         model.load_state_dict(torch.load(ckpt, map_location=device))
 
         results, all_preds = {}, {}
-        print(f"\nSeed {seed} (input size {config['size']}):")
+        print(f"\nRun {run}, seed {seed} (input size {config['size']}, "
+              f"{config['epochs']} epochs):")
         for kind, level in CONDITIONS:
             name = condition_name(kind, level)
             loader = DataLoader(CorruptedPets(test_rows, image_dir, kind, level,
@@ -124,7 +134,7 @@ def main():
             results[name]["relative_drop"] = (clean_acc - acc) / clean_acc
 
         with open(run_dir / "corruptions.json", "w") as f:
-            json.dump({"seed": seed, "checkpoint": str(ckpt),
+            json.dump({"run": run, "seed": seed, "checkpoint": str(ckpt),
                        "test_conditions": results}, f, indent=2)
         with open(run_dir / "predictions_corrupted.csv", "w", newline="") as f:
             writer = csv.writer(f)
@@ -134,6 +144,7 @@ def main():
                     writer.writerow([name, r["image"], r["label"], int(p),
                                      int(r["label"]) == int(p)])
         per_seed[seed] = results
+        run_of_seed[seed] = run
 
     if not per_seed:
         print("No checkpoints evaluated.")
@@ -151,7 +162,8 @@ def main():
                          "relative_drop_mean": float(np.mean(rel)),
                          "relative_drop_std": float(np.std(rel))}
     with open(Path("results/cnn") / "summary.json", "w") as f:
-        json.dump({"seeds": seeds, "conditions": summary}, f, indent=2)
+        json.dump({"seeds": seeds, "runs": [run_of_seed[s] for s in seeds],
+                   "conditions": summary}, f, indent=2)
 
     print(f"\nMean over seeds {seeds}:")
     for name, s in summary.items():
