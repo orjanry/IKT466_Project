@@ -1,0 +1,69 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "conditions": {
+    "clean": {
+      "accuracy_mean": 0.883892068683565,
+      "accuracy_std": 0.003497479159611178,
+      "relative_drop_mean": 0.0,
+      "relative_drop_std": 0.0
+    },
+    "blur_1": {
+      "accuracy_mean": 0.8520032706459526,
+      "accuracy_std": 0.0023126959319265485,
+      "relative_drop_mean": 0.03607231368859808,
+      "relative_drop_std": 0.001639231655073262
+    },
+    "blur_2": {
+      "accuracy_mean": 0.7405287544289997,
+      "accuracy_std": 0.005214261779697219,
+      "relative_drop_mean": 0.1621769747521235,
+      "relative_drop_std": 0.007412674997720678
+    },
+    "blur_3": {
+      "accuracy_mean": 0.3906604887798673,
+      "accuracy_std": 0.014845776884682032,
+      "relative_drop_mean": 0.5579874953930716,
+      "relative_drop_std": 0.017625009804036966
+    },
+    "noise_1": {
+      "accuracy_mean": 0.8346506768420096,
+      "accuracy_std": 0.003569888744324231,
+      "relative_drop_mean": 0.05571047101028512,
+      "relative_drop_std": 0.0009690055712288574
+    },
+    "noise_2": {
+      "accuracy_mean": 0.721540837648769,
+      "accuracy_std": 0.0038179161241847104,
+      "relative_drop_mean": 0.18366860188135684,
+      "relative_drop_std": 0.00479528964495115
+    },
+    "noise_3": {
+      "accuracy_mean": 0.3989279549377669,
+      "accuracy_std": 0.00092650486301315,
+      "relative_drop_mean": 0.5486659788586915,
+      "relative_drop_std": 0.0007546235969955353
+    },
+    "jpeg_1": {
+      "accuracy_mean": 0.7951303715817207,
+      "accuracy_std": 0.0025308237080374266,
+      "relative_drop_mean": 0.10039809631273137,
+      "relative_drop_std": 0.006131016322505722
+    },
+    "jpeg_2": {
+      "accuracy_mean": 0.7114563459616607,
+      "accuracy_std": 0.0024814209655214924,
+      "relative_drop_mean": 0.19506466693714344,
+      "relative_drop_std": 0.005791575719815655
+    },
+    "jpeg_3": {
+      "accuracy_mean": 0.30480603252475696,
+      "accuracy_std": 0.006474069865111254,
+      "relative_drop_mean": 0.655157183189639,
+      "relative_drop_std": 0.007060343889117405
+    }
+  }
+}
