@@ -1,0 +1,74 @@
+{
+  "seeds": [
+    42,
+    43,
+    44
+  ],
+  "runs": [
+    "e80_seed42",
+    "e80_seed43",
+    "e80_seed44"
+  ],
+  "conditions": {
+    "clean": {
+      "accuracy_mean": 0.5847188152993549,
+      "accuracy_std": 0.01239911913390686,
+      "relative_drop_mean": 0.0,
+      "relative_drop_std": 0.0
+    },
+    "blur_1": {
+      "accuracy_mean": 0.34468974289088766,
+      "accuracy_std": 0.012659987646476271,
+      "relative_drop_mean": 0.41066295487108734,
+      "relative_drop_std": 0.01149133092040776
+    },
+    "blur_2": {
+      "accuracy_mean": 0.15181248296538566,
+      "accuracy_std": 0.003469043897889849,
+      "relative_drop_mean": 0.7401340398894839,
+      "relative_drop_std": 0.01128688889193162
+    },
+    "blur_3": {
+      "accuracy_mean": 0.044971381847914965,
+      "accuracy_std": 0.003497479159611185,
+      "relative_drop_mean": 0.9231470433023019,
+      "relative_drop_std": 0.004829847408925149
+    },
+    "noise_1": {
+      "accuracy_mean": 0.4562551103843009,
+      "accuracy_std": 0.004850130940324944,
+      "relative_drop_mean": 0.21951770257727976,
+      "relative_drop_std": 0.009022736006958722
+    },
+    "noise_2": {
+      "accuracy_mean": 0.14699736531298266,
+      "accuracy_std": 0.015905461433643672,
+      "relative_drop_mean": 0.7482502258311573,
+      "relative_drop_std": 0.030081339176997554
+    },
+    "noise_3": {
+      "accuracy_mean": 0.03479603888434633,
+      "accuracy_std": 0.0016702803952802982,
+      "relative_drop_mean": 0.9404038517450779,
+      "relative_drop_std": 0.004120140446555859
+    },
+    "jpeg_1": {
+      "accuracy_mean": 0.44907785954392665,
+      "accuracy_std": 0.02654972144308614,
+      "relative_drop_mean": 0.23224551165897755,
+      "relative_drop_std": 0.036543748876665255
+    },
+    "jpeg_2": {
+      "accuracy_mean": 0.37412555646406825,
+      "accuracy_std": 0.025918262588480418,
+      "relative_drop_mean": 0.3606630185471955,
+      "relative_drop_std": 0.033184728604776656
+    },
+    "jpeg_3": {
+      "accuracy_mean": 0.2157717815935314,
+      "accuracy_std": 0.01213264288540214,
+      "relative_drop_mean": 0.6312536706118596,
+      "relative_drop_std": 0.012996748277223448
+    }
+  }
+}
